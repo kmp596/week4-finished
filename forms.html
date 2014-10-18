@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Forms Extravaganza</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>The Worst Restaurant Ever</h1>
+    <form action="http://learn.golearntocode.com/forms" method="post">
+
+      <!-- Text -->
+      <div class="form-group">
+        <label for="name">What's your name?</label>
+        <input type="text" class="form-control" id="name" name="name">
+      </div>
+
+      <!-- Textarea -->
+      <div class="form-group">
+        <label for="special">Any special requests?</label>
+        <textarea class="form-control" name="special" rows="10"></textarea>
+      </div>
+
+      <!-- Checkboxes -->
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="tacos" value="Yes">
+          Tacos
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="burritos" value="Yes">
+          Burritos
+        </label>
+      </div>
+
+      <!-- Radios -->
+      <div class="radio">
+        <label>
+          <input type="radio" name="options" id="optionsRadios1" value="Sour Cream" checked>
+          Sour Cream
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="options" id="optionsRadios2" value="Guac">
+          Guac
+        </label>
+      </div>
+
+      <!-- Select -->
+      <div class="form-group">
+        <label for="extras">Extra stuff?</label>
+        <select class="form-control" id="extras" name="extras">
+          <option>Chips</option>
+          <option>Drink</option>
+          <option>Drink</option>
+          <option>Drink</option>
+          <option>Drink</option>
+          <option>Drink</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-success">Submit</button>
+  </div>
+</body>
+</html>
